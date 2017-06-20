@@ -6,7 +6,7 @@ author: mbcrump
 
 # C<span>#</span> Azure Function for generating an ICS File 
 
-This is a sample HTTP trigger Azure Function that returns a ICS file that to the client. The project takes a dependancy on [iCal.NET](https://github.com/rianjs/ical.net), but demonstrates how a simple HTTP Trigger can be implemented. 
+This is a sample HTTP trigger Azure Function that returns a ICS file that to the client. The project takes a dependency on [iCal.NET](https://github.com/rianjs/ical.net), but demonstrates how a simple HTTP Trigger can be implemented. You can read more about the function in this [blog post](http://michaelcrump.net/building-an-ics-for-azure-functions-webinar/). 
 
 # Contributing
 

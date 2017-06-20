@@ -1,0 +1,10 @@
+{
+  "frameworks": {
+    "net46": {
+      "dependencies": {
+        "Ical.Net": "2.2.19",
+        "Newtonsoft.Json": "9.0.1"
+      }
+    }
+   }
+}
