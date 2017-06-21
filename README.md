@@ -10,7 +10,7 @@ This is a sample HTTP trigger Azure Function that returns a ICS file that to the
 
 # Additional Details and History
 
-This project originally came out a need to create an ICS file for the Azure Functions webinar. Armed with only the knowledge of what I wanted to create, below is how I started investigating how to do this with Azure Functions : 
+This project originally came out a need to create an ICS file for the [Azure Functions](http://aka.ms/AzureFunctionsLive) webinar. Armed with only the knowledge of what I wanted to create, below is how I started investigating how to do this with Azure Functions : 
 
 I began by taking a look at a third party library called [iCal.NET](https://github.com/rianjs/ical.net). It looks like this handles all the various time zones and client. Next, I opened the Azure Portal and creating a new Azure Function application securing the name that folks would go to : 
  
