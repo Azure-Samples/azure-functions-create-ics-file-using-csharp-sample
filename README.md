@@ -1,7 +1,11 @@
 ---
-services: app-service, functions
-platforms: dotnet
-author: mbcrump
+page_type: sample
+languages:
+- csharp
+products:
+- azure
+description: "This is a sample HTTP trigger Azure Function that returns a ICS file that to the client."
+urlFragment: azure-functions-create-ics-file-using-csharp-sample
 ---
 
 # C<span>#</span> Azure Function for generating an ICS File 
