@@ -5,10 +5,10 @@ languages:
 products:
 - azure
 description: "This is a sample HTTP trigger Azure Function that returns a ICS file that to the client."
-urlFragment: azure-functions-create-ics-file-using-csharp-sample
+urlFragment: ics-file-generator
 ---
 
-# C<span>#</span> Azure Function for generating an ICS File 
+# C# Azure Function for generating an ICS File 
 
 This is a sample HTTP trigger Azure Function that returns a ICS file that to the client. The project takes a dependency on [iCal.NET](https://github.com/rianjs/ical.net), but demonstrates how a simple HTTP Trigger can be implemented. 
 
