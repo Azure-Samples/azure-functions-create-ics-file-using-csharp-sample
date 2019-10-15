@@ -12,7 +12,7 @@ urlFragment: ics-file-generator
 
 This is a sample HTTP trigger Azure Function that returns a ICS file that to the client. The project takes a dependency on [iCal.NET](https://github.com/rianjs/ical.net), but demonstrates how a simple HTTP Trigger can be implemented. 
 
-# Additional Details and History
+## Additional Details and History
 
 This project originally came out a need to create an ICS file for the [Azure Functions](http://aka.ms/AzureFunctionsLive) webinar. Armed with only the knowledge of what I wanted to create, below is how I started investigating how to do this with Azure Functions : 
 
@@ -30,16 +30,18 @@ Armed with just the online editor, I started writing code. I could have download
 
 I needed to pull in a third party library, so I noticed that you could view "Files" inside the portal and that it supports NuGet. I simply created a `project.json` and added the following NuGet package reference to iCal.NET and Newtonsoft.Json : 
 
-	{
-	  "frameworks": {
-	    "net46": {
-	      "dependencies": {
-	        "Ical.Net": "2.2.19",
-	        "Newtonsoft.Json": "9.0.1"
-	      }
-	    }
-	   }
-	}
+```json
+{
+  "frameworks": {
+    "net46": {
+      "dependencies": {
+	"Ical.Net": "2.2.19",
+	"Newtonsoft.Json": "9.0.1"
+      }
+    }
+   }
+}
+```
 
 When I switched back to my function, I noticed my project started pulling down the references and restarted my function. 
 
@@ -72,6 +74,6 @@ Whenever I need to update this in the future, all it will require is changing tw
 
 Btw, you can try it now at [http://aka.ms/AzureFunctionsLive](http://aka.ms/AzureFunctionsLive) and be sure to follow [@AzureFunctions](https://twitter.com/AzureFunctions) on Twitter! 
 
-# Contributing
+## Contributing
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
